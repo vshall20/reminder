@@ -18,6 +18,11 @@
 		86528D7A17804E3F00B0CB13 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86528D7917804E3F00B0CB13 /* Default@2x.png */; };
 		86528D7C17804E3F00B0CB13 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86528D7B17804E3F00B0CB13 /* Default-568h@2x.png */; };
 		86528D7F17804E3F00B0CB13 /* Reminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86528D7D17804E3F00B0CB13 /* Reminder.xcdatamodeld */; };
+		86528D8617804F2200B0CB13 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86528D8517804F2200B0CB13 /* MainStoryboard.storyboard */; };
+		86528D891780509D00B0CB13 /* NotificationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86528D881780509D00B0CB13 /* NotificationTableViewController.m */; };
+		86528D8C1780518200B0CB13 /* NotificationCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86528D8B1780518200B0CB13 /* NotificationCustomCell.m */; };
+		86528D9217805DDB00B0CB13 /* AddNewNotificationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86528D9117805DDB00B0CB13 /* AddNewNotificationTableViewController.m */; };
+		86528D95178060B400B0CB13 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86528D94178060B400B0CB13 /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,15 @@
 		86528D7917804E3F00B0CB13 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		86528D7B17804E3F00B0CB13 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		86528D7E17804E3F00B0CB13 /* Reminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reminder.xcdatamodel; sourceTree = "<group>"; };
+		86528D8517804F2200B0CB13 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		86528D871780509D00B0CB13 /* NotificationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationTableViewController.h; sourceTree = "<group>"; };
+		86528D881780509D00B0CB13 /* NotificationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationTableViewController.m; sourceTree = "<group>"; };
+		86528D8A1780518200B0CB13 /* NotificationCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCustomCell.h; sourceTree = "<group>"; };
+		86528D8B1780518200B0CB13 /* NotificationCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationCustomCell.m; sourceTree = "<group>"; };
+		86528D9017805DDB00B0CB13 /* AddNewNotificationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewNotificationTableViewController.h; sourceTree = "<group>"; };
+		86528D9117805DDB00B0CB13 /* AddNewNotificationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewNotificationTableViewController.m; sourceTree = "<group>"; };
+		86528D93178060B400B0CB13 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		86528D94178060B400B0CB13 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,15 @@
 		86528D5717804E3E00B0CB13 = {
 			isa = PBXGroup;
 			children = (
+				86528D93178060B400B0CB13 /* CustomCell.h */,
+				86528D94178060B400B0CB13 /* CustomCell.m */,
+				86528D9017805DDB00B0CB13 /* AddNewNotificationTableViewController.h */,
+				86528D9117805DDB00B0CB13 /* AddNewNotificationTableViewController.m */,
+				86528D8A1780518200B0CB13 /* NotificationCustomCell.h */,
+				86528D8B1780518200B0CB13 /* NotificationCustomCell.m */,
+				86528D871780509D00B0CB13 /* NotificationTableViewController.h */,
+				86528D881780509D00B0CB13 /* NotificationTableViewController.m */,
+				86528D8517804F2200B0CB13 /* MainStoryboard.storyboard */,
 				86528D6B17804E3F00B0CB13 /* Reminder */,
 				86528D6217804E3E00B0CB13 /* Frameworks */,
 				86528D6117804E3E00B0CB13 /* Products */,
@@ -161,6 +184,7 @@
 				86528D7817804E3F00B0CB13 /* Default.png in Resources */,
 				86528D7A17804E3F00B0CB13 /* Default@2x.png in Resources */,
 				86528D7C17804E3F00B0CB13 /* Default-568h@2x.png in Resources */,
+				86528D8617804F2200B0CB13 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +198,10 @@
 				86528D7217804E3F00B0CB13 /* main.m in Sources */,
 				86528D7617804E3F00B0CB13 /* AppDelegate.m in Sources */,
 				86528D7F17804E3F00B0CB13 /* Reminder.xcdatamodeld in Sources */,
+				86528D891780509D00B0CB13 /* NotificationTableViewController.m in Sources */,
+				86528D8C1780518200B0CB13 /* NotificationCustomCell.m in Sources */,
+				86528D9217805DDB00B0CB13 /* AddNewNotificationTableViewController.m in Sources */,
+				86528D95178060B400B0CB13 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
